@@ -1,15 +1,15 @@
 # TS-II-Final-Project
 
 # Datos del curso
-Curso: Taller de software II
-Bloque: FC-PREINF03A1T 
-Integrantes: Delzo, Luis; Aparicio, Jose; Manco, Fabrizio.
+- Curso: Taller de software II
+- Bloque: FC-PREINF03A1T 
+- Integrantes: Delzo, Luis; Aparicio, Jose; Manco, Fabrizio.
 
 # Datos del producto
-Nombre: AHL (Animal Hope for Life)
-Vision: Salvar la vida a la mayoria de mascotas en peligro o que necesiten un hogar en todo el Perú.
-Publico objetivo: PetLovers y publico en general que esten dispuesto a ayudar y entregar todo su amor a esta noble causa.
-Propuesta de valor: Nuestra interfaz web cuenta con opciones sencillas para que cualquier tipo de usuario pueda acceder y manejarlas las amigables de herramientas relacionadas a adoptar, ayudar y obtener informacion del proceso de esterilizacion de animales.   
+- Nombre: AHL (Animal Hope for Life)
+- Vision: Salvar la vida a la mayoria de mascotas en peligro o que necesiten un hogar en todo el Perú.
+- Publico objetivo: PetLovers y publico en general que esten dispuesto a ayudar y entregar todo su amor a esta noble causa.
+- Propuesta de valor: Nuestra interfaz web cuenta con opciones sencillas para que cualquier tipo de usuario pueda  acceder y manejarlas las amigables de herramientas relacionadas a adoptar, ayudar y obtener informacion del proceso de esterilizacion de animales.   
 
 # Funcionalidades 
 - Registrar usuarios. 
