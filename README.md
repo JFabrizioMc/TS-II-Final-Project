@@ -11,7 +11,7 @@ Vision: Salvar la vida a la mayoria de mascotas en peligro o que necesiten un ho
 Publico objetivo: PetLovers y publico en general que esten dispuesto a ayudar y entregar todo su amor a esta noble causa.
 Propuesta de valor: Nuestra interfaz web cuenta con opciones sencillas para que cualquier tipo de usuario pueda acceder y manejarlas las amigables de herramientas relacionadas a adoptar, ayudar y obtener informacion del proceso de esterilizacion de animales.   
 
-# Funcionalidades (Version alfa 0.10) creado por XDMasterOfBloodXD (contactarse para un doto)
+# Funcionalidades 
 - Registrar usuarios. 
 - Registrar un animal domestico que este en peligro, que se haya extraviado o que este en adopcion con las siguiente informacion:
     - Caracteristicas fisicas (color, manchas, lesiones, edad, raza, etc).
