@@ -18,7 +18,8 @@
             <input type="date" name="f">
         </div>
         <div>
-           <select name="Ciudad:" id="" value="Lima" name="c">
+           <label for="">Ciudad: </label>
+           <select name="Ciudad:" id="" name="c">
             <option value="AM">Amazonas</option>
             <option value="AN">Ancash</option>
             <option value="AP">Apurimac</option>
@@ -58,6 +59,7 @@
             <label for="">Confirmar contraseña: </label>
             <input type="password" name="p2">
         </div>
+        <button>CONFIRMAR</button>
     </form>
 
 </body>
