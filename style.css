@@ -1,0 +1,14 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.opciones{
+    display: block;
+    text-align: center;
+    
+    width: 100%;
+}
+
+.opciones a:link {
+    color: gray;
+}
