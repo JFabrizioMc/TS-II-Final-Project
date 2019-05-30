@@ -14,8 +14,8 @@
 
     <form action="procesar_login.php" method="POST">
         <div class="mod">
-            <label name="usuario">Usuario:</label>
-            <input type="text" name="user">
+            <label name="usuario">Correo Electronico:</label>
+            <input type="email" name="user">
         </div>
 
         <div class="mod" >
