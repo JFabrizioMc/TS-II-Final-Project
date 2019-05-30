@@ -1,14 +1,29 @@
 body{
     background-color: blanchedalmond;
+    text-align: center;
 }
 
 .opciones{
+    background-color: darkkhaki;
     display: block;
-    text-align: center;
-    
+    text-align: center; 
+    width: 100%; 
+    margin: 30px 0px;
+    height: 50px;
+}
+
+.imgPrincipal{
     width: 100%;
 }
 
 .opciones a:link {
-    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 0px 40px;
+    
+} 
+
+footer{
+    background-color: darkkhaki;
+    height: 200px;
 }
