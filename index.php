@@ -9,11 +9,13 @@
 </head>
 <body>
     <h1>Animal Hope for Life AHL</h1>
-        <nav>
+        <nav class="opciones">
             <a href="nosotros.php">Nosotros</a>
             <a href="login.php">Login</a>
             <a href="registrar_usuario.php">Registro de Usuario</a>
         </nav>
+
+    <img src="imagenes/imgPrincipal.jpg" alt="perro">
     
     <footer>
         <nav>
