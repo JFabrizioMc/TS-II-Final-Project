@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Registrar Usuario</title>
+    <link rel="stylesheet" href="style_registrar.css">
 </head>
 <body>
     <h1>Registrar Usuario</h1>
@@ -52,15 +53,16 @@
             <input type="email" name="e">
         </div>
         <div>
-            <label for="">Contraseña: </label>
+            <label for="" id="con">Contraseña: </label>
             <input type="password" name="p1">
-        </div>
-        <div>
             <label for="">Confirmar contraseña: </label>
             <input type="password" name="p2">
         </div>
+
         <button>CONFIRMAR</button>
     </form>
-
+    <footer>
+        <p></p>
+    </footer>
 </body>
 </html>

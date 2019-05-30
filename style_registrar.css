@@ -1,0 +1,32 @@
+body{
+    background-color: blanchedalmond;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    
+}
+
+label{
+    display: inline-block;
+    width: 160px;
+}
+#con{
+    display: inline-block;
+    width: 90px;
+}
+
+button{
+    display: block;
+    margin: auto;
+}
+
+form{
+    border: 1px solid black;
+    width: 700px;
+}   
+
+div{
+    padding: 6px 5px;
+}
+
+input{
+    width: 200px;
+}
