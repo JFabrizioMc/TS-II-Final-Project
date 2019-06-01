@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Main Page</title>
+    <title>Animal Hope for Life</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,10 +23,10 @@
             <a href="registrar_usuario.php">Registro de Usuario</a>
         </nav>
 
-        <p>Contactos: 01-3488923.</p>
-        <p>Direccion: Av. la Fontana 550, La Molina 00012 </p>
-        <p>Powered by Taller de Software II bloque tarde - Profesor Jhonatan Chavez</p>
-        <p>Creadores: Luis Delzo Espinoza, Fabrizio Manco, Jose Aparicio(Alias KillerPool)</p>
+        <p>Phone: 01-3488923.</p>
+        <p>Addres: Av. la Fontana 550, La Molina 00012 </p>
+        <p>Powered by Universidad San Ignacio de Loyola</p>
+        <p>Developers: Luis Delzo Espinoza, Fabrizio Manco, Jose Aparicio</p>
     </footer>
 </body>
 </html>

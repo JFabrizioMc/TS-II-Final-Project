@@ -24,7 +24,7 @@
         </div>
 
 
-        <button class="boton">Logear</button>
+        <button class="boton">INICIAR SESION</button>
     
     </form>
 
