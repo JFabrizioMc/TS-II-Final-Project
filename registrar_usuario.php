@@ -15,6 +15,10 @@
             <input type="text" name="n">
         </div>
         <div>
+            <label for="">Numero de celular: </label>
+            <input type="number">
+        </div>
+        <div>
             <label for="">Fecha de nacimiento: </label>
             <input type="date" name="f">
         </div>
