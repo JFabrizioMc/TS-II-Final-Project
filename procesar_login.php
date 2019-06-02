@@ -1,11 +1,4 @@
 <?php
-#Conexion
-#$pdo = new PDO ();
-
-#
-
-
-
 $user = $_POST["user"];
 $password = $_POST["contraseña"];
 
@@ -15,8 +8,6 @@ if ($user== "aldairxd11@hotmail.com" && $password == "123" ) {
     $_SESSION["usuario"] = $user;
     header("Location: index.php");
 }
-
-
 
 else{ # Usuario incorrecto
     header("Location: index.php?m=1");
