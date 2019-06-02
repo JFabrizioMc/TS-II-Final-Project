@@ -1,9 +1,8 @@
 body{
     background-color: blanchedalmond;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;   
 }
-
 .opciones{
     background-color: darkkhaki;
     display: block;
