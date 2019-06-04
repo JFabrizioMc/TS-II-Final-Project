@@ -18,7 +18,7 @@ if ($nombres == null || $contacto == null || $fecha_n == null || $ciudad==null |
                         password_verify($password, $passHash);
                         $sql = "INSERT INTO usuarios VALUES (null, '$nombres','$fecha_n','$ciudad','$email','$passHash',$contacto)";
                         $pdo ->query($sql);
-                        header("Location: index.php");
+                        header("Location: menu.php");
                 }
 }
 
