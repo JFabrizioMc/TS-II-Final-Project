@@ -16,9 +16,8 @@
             <a href="login.php">Login</a>
             <a href="registrar_usuario.php">Registro de Usuario</a>
         </nav>
-
-    <img src="imagenes/imgPrincipal.jpg" alt="perro" class="imgPrincipal">
-    
+    <script> </script>
+    <img src="imagenes/perro.jpg" alt="perro" class="imgPrincipal">
     <footer>
         <nav>
             <a href="nosotros.php">Nosotros</a>

@@ -13,7 +13,7 @@
       <div class="p-3 mb-2 bg-info text-white card">
           <div class="card-body">
                 <p>Hola, somos estudiantes de USIL de la carrera Ingenieria Informatica y de Sistemas, este proyecto tiene un fin educativo ya que utilzamos todo lo que hemos aprendido
-                   en el curso agregando algunas funciones  que investigamos por nuestra cuenta</p>
+                   en el curso agregando algunas funciones  que investigamos por nuestra cuenta.</p>
                 
           </div>
       </div>
