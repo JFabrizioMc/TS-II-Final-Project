@@ -14,6 +14,13 @@
         <div>
             <label for="">Nombres y Apellidos: </label>
             <input type="text" name="nom">
+            <?php if(isset($_GET['f'])){ ?>
+            <p style="color: red">Faltan datos</p>
+        <?php } ?>
+        
+        <?php if(isset($_GET['error'])){ ?>
+            <p style="color: red">Las contraseñas no coinciden</p>
+        <?php } ?>
         </div>
         <div>
             <label>Numero de celular: </label>
@@ -56,14 +63,7 @@
         <div>
             <label for="">Correo electronico: </label>
             <input type="email" name="email">
-        </div>
-        <?php if(isset($_GET['error'])){ ?>
-            <p style="color: red">Las contraseñas no coinciden</p>
-        <?php } ?>
-        
-           
-     
-            
+        </div>       
         <div>
             <label for="" id="con">Contraseña: </label>
             <input type="password" name="p1">
