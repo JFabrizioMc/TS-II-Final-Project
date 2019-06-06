@@ -1,3 +1,5 @@
+<?php session_start() ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +12,7 @@
 </head>
 <body>
     <h1>Animal Hope for Life AHL</h1>
+
     <nav>
         <a href="menu.php">INICIO</a>
         <a href="reportes.php">REPORTAR</a>

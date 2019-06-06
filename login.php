@@ -46,26 +46,13 @@
                     </div>
                 </div>
             </div>
-
-
             <button class="boton">Acceder</button>
             <div>
                 <p>Olvidastes tu contraseña?<a href="">Click aqui</a></p>
                 <p>No tienes una cuenta?<a href="">Click aqui</a></p>
             </div>
-
-
         </div>
-
-
-
     </form>
-
-
-
-
-
-
 </body>
 
 </html>

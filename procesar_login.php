@@ -15,7 +15,7 @@ $numero_rows = $resultado->fetchAll();
 if(count($numero_rows) > 0 ){
     foreach($numero_rows as $fila){
         if(password_verify($password, $fila['contraseña']) ) {
-            header("Location: index.php"); 
+            header("Location: menu.php"); 
         }
         else{
             header("Location: login.php?error=contraseñaincorrecta");

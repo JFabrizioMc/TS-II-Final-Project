@@ -10,17 +10,22 @@
 </head>
 <body>
     <h1>Registrar Usuario</h1>
+    
     <form action="proc_registro_usuario.php" method="post">
+    <?php if(isset($_GET['i'])){ ?>
+            <p style="color: red">Email ya registrado, intente con otro</p>
+            <?php } ?>
+    <?php if(isset($_GET['f'])){ ?>
+            <p style="color: red">Faltan datos</p>
+            <?php } ?>
+
+    <?php if(isset($_GET['error'])){ ?>
+            <p style="color: red">Las contraseñas no coinciden</p>
+            <?php } ?>          
         <div>
             <label for="">Nombres y Apellidos: </label>
             <input type="text" name="nom">
-            <?php if(isset($_GET['f'])){ ?>
-            <p style="color: red">Faltan datos</p>
-        <?php } ?>
-        
-        <?php if(isset($_GET['error'])){ ?>
-            <p style="color: red">Las contraseñas no coinciden</p>
-        <?php } ?>
+            
         </div>
         <div>
             <label>Numero de celular: </label>
@@ -60,6 +65,11 @@
             <option value="UC">Ucayali</option>
            </select>
            </div>
+        
+     
+
+    
+        
         <div>
             <label for="">Correo electronico: </label>
             <input type="email" name="email">
@@ -73,7 +83,8 @@
 
         <button>Confirmar</button>
     </form>
-        
+
+
         
 </body>
 </html>
