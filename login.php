@@ -12,7 +12,17 @@
 <body>
     <h1>Iniciar Sesion</h1>
     <form action="procesar_login.php" method="POST">
+            
         <div class="padre_login">
+            <?php if(isset($_GET['falta'])){ ?>
+                <p style="color: red">Debe ingresar el correo o la contraseña </p>
+            <?php } ?>            
+            <?php if(isset($_GET['error'])){ ?>
+                <p style="color: red">La contraseña o el correo no coinciden , intentelo de nuevo</p>
+            <?php } ?>
+            <?php if(isset($_GET['noexiste'])){ ?>
+                <p style="color: red">El correo no existe en nuestro base de datos</p>
+            <?php } ?>
             <div class="div1">
                 <label name="usuario">Correo Electronico</label>
                 <div class="asd">
@@ -34,9 +44,7 @@
                     <div>
                         <input type="password" name="contraseña" placeholder="Contraseña...">
                     </div>
-                    
                 </div>
-
             </div>
 
 
