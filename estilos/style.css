@@ -1,37 +1,83 @@
 body{
-    background-color: moccasin;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;   
-}
-.opciones{
-    background-color: green;
-    display: block;
-    text-align: center; 
-    width: 100%; 
-    margin: 30px 0px 0px 0px;
-    height: 50px;
-}
-
-.imgPrincipal{
+    background-color: white;
     width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Open Sans', Arial;  
+    font-weight: 400;
+    line-height: 1;
 }
 
-.opciones a:link {
-    color: white;
-    padding: 0 40px;
-    font-weight: bold;
+.flex-container1{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.flex-container1 nav{
+    position: absolute;
+    top: 5%;
+    left: 80%;
+}
+
+.logo{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    top: 0%;
+    left: 0%;
+}
+
+.flex-container1 a:link{   
+    color: rgba(91, 129, 91, 0.774);
     text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px 10px;
 }
 
-footer nav a:link{
-    color: white;
-    padding: 0px 10px;
+.mensaje{
+    font-size: 25px;
     font-weight: bold;
-    text-decoration: none; 
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
 }
+
+.flex-container1 img{max-width:100%;}
 
 footer{
-    background-color: green;
-    height: 200px;
-    margin: 0px;
+    background-color: rgb(90, 143, 38);
+    color: white;
+}
+
+.flex-container2{
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 700px;
+    justify-content: center;
+    text-align: center;
+}
+
+.flex-container2 img{min-width: 100%; opacity: 0.5; filter: alpha(opacity=50);}
+
+.mensaje2{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;  
+}
+
+.boton1{
+    position: absolute;
+    top: 35%;
+    color: black;
+    font-size: 40px;
+    padding: 10px 10px;
 }

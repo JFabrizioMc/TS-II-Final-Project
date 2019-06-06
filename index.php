@@ -10,24 +10,35 @@
     
 </head>
 <body>
-    <h1>Animal Hope for Life</h1>
-        <nav class="opciones">
-            <a href="nosotros.php">Nosotros</a>
-            <a href="login.php">Login</a>
-            <a href="registrar_usuario.php">Registro de Usuario</a>
-        </nav>
-    <script> </script>
-    <img src="imagenes/perro.jpg" alt="perro" class="imgPrincipal">
-    <footer>
+    <div class="flex-container1">
+        <img class="logo" src="imagenes/logo.png">
         <nav>
-            <a href="nosotros.php">Nosotros</a>
-            <a href="registrar_usuario.php">Registro de Usuario</a>
+            <a href="nosotros.php">Que es AHL?</a>
+            <a href="adoptar.php">Adopta</a>
+            <a href="login.php">Login</a>
+            
         </nav>
 
-        <p>Phone: 01-3488923.</p>
-        <p>Addres: Av. la Fontana 550, La Molina 00012 </p>
-        <p>Powered by Universidad San Ignacio de Loyola</p>
-        <p>Developers: Luis Delzo Espinoza, Fabrizio Manco, Jose Aparicio</p>
+        <div class="mensaje">
+            <p>Estoy a favor del derecho de los animales, al igual que del derecho de los humanos. Ese es el camino de un ser humano completo (Abraham Lincoln)</p>
+        </div>
+
+        <img src="imagenes/perro.jpg">
+    </div>
+
+    <div class="flex-container2">
+
+       <a href="registrar_usuario.php" class="boton1"></a>
+        <div class="mensaje2">
+            <p>Deseas ayudar a un pequeño amigo? Adopta mediante AHL y llena de amor tu vida!</p>
+        </div>
+        <img src="imagenes/perroyorki.jpg">
+    </div>
+
+    <footer>
+        <p>Desarrolladores: Luis Delzo, Fabrizio Manco, Aparicio Alan.</p>
+        <p>2019 - Peru</p>
     </footer>
+
 </body>
 </html>
