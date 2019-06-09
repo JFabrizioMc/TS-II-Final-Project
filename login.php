@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,51 +7,52 @@
     <title>Login</title>
     <link rel="stylesheet" href="estilos/configuracion.css">
 </head>
-
 <body>
-    <h1>Iniciar Sesion</h1>
-    <form action="procesar_login.php" method="POST">
-            
-        <div class="padre_login">
-            <?php if(isset($_GET['falta'])){ ?>
-                <p style="color: red">Debe ingresar el correo o la contraseña </p>
-            <?php } ?>            
+    <div class="menu">
+    <h1>Iniciar Sesión</h1>
+    <nav>
+        <a href="nosotros.php">Que es AHL?</a>
+        <a href="adoptar.php">Adopta</a>
+        <a href="login.php">Login</a>    
+    </nav>
+    </div>
+    <form action="procesar_login.php" method="POST" class="x">
+        <div class="login">
+            <div class="ed">
+                <img src="imagenes/logo.png" class="avatar" alt="Avatar Image">
+            </div>
+            <?php if(isset($_GET['falta2'])){ ?>
+            <p style="color: red">Debe ingresar el correo </p>
+            <?php } ?>
+            <?php if(isset($_GET['falta3'])){ ?>
+            <p style="color: red">Debe ingresar la contraseña </p>
+            <?php } ?>
+            <?php if(isset($_GET['falta4'])){ ?>
+            <p style="color: red">Debe ingresar el correo y la contraseña </p>
+            <?php } ?>
             <?php if(isset($_GET['error'])){ ?>
-                <p style="color: red">La contraseña o el correo no coinciden , intentelo de nuevo</p>
+            <p style="color: red">Correo y/o contraseña invalido,intentelo de nuevo</p>
+
             <?php } ?>
             <?php if(isset($_GET['noexiste'])){ ?>
-                <p style="color: red">El correo no existe en nuestro base de datos</p>
+            <p style="color: red">Correo no registrado </p>
             <?php } ?>
-            <div class="div1">
-                <label name="usuario">Correo Electronico</label>
-                <div class="asd">
-                    <div class="hijo">
-                        <img src="imagenes/usuario.png" name="usuario">
-                    </div>
-                    <div class="hijo">
-                        <input type="email" name="usuario" placeholder="Example@example.com">
-                    </div>
-                </div>
-            </div>
-
-            <div class="div1">
-                <label name="contraseña">Contraseña</label>
-                <div class="asd">
-                    <div>
-                        <img src="imagenes/password.png" name="contraseña">
-                    </div>
-                    <div>
-                        <input type="password" name="contraseña" placeholder="Contraseña...">
-                    </div>
-                </div>
-            </div>
-            <button class="boton">Acceder</button>
             <div>
-                <p>Olvidastes tu contraseña?<a href="">Click aqui</a></p>
-                <p>No tienes una cuenta?<a href="">Click aqui</a></p>
+                <label for="username">Correo Electronico :</label>
+                <input type="email" class="email"placeholder="Correo Electronico..." name="usuario">
+            </div>
+            <div>
+                <label for="password">Contraseña :</label>
+                <input class="contra"type="password" placeholder="Contraseña.." name="contraseña" >
+            </div>
+            <button type="submit" class="boton">LOGEAR</button>
+
+            <div class="u">
+                <a href="#">Te olvidastes tu contraseña?</a>
+                <br>       
+                <p>No tienes una cuenta?<a href="registrar_usuario.php">Crea una</a></p>
             </div>
         </div>
     </form>
 </body>
-
 </html>
