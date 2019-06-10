@@ -4,6 +4,7 @@ body {
     background: url(../imagenes/perro1.jpg);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-repeat: no-repeat;
+    text-align: center;
 }
 .x{
     display: flex;
@@ -111,10 +112,38 @@ body {
 }
 
 .menu a{
-    color: rgba(91, 129, 91, 0.774);
+    color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
     padding: 0px 10px;   
     
+}
+.formulario{
+    width: 328px;
+    height: 568px;
+    background: rgb(93, 93, 93);
+    color: rgb(0, 0, 0);
+    padding:20px ;
+    border-radius: 20px;
+    display: flex; 
+    flex-direction: column;
+}
+
+#headercitoxd{
+    color: #b80f22;
+
+}
+.menu_registrar{
+    position: absolute;
+    top: 5%;
+    left: 80%;
+}
+
+.menu_registrar a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px 10px;   
 }

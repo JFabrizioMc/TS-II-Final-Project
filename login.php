@@ -11,9 +11,9 @@
     <div class="menu">
     <h1>Iniciar Sesión</h1>
     <nav>
-        <a href="nosotros.php">Que es AHL?</a>
-        <a href="adoptar.php">Adopta</a>
-        <a href="login.php">Login</a>    
+        <a href="index.php">Inicio</a>
+        
+          
     </nav>
     </div>
     <form action="procesar_login.php" method="POST" class="x">

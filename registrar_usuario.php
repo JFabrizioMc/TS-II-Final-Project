@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilos/style_registrar.css">
+    <link rel="stylesheet" href="estilos/configuracion.css">
     <title>Registrar Usuario</title>
 </head>
 <body>
-    <h1>Registrar Usuario</h1>
+    <h1 id="headercitoxd">Registrar Usuario</h1>
+    <nav class="menu_registrar">
+        <a href="index.php">Inicio</a>
+    </nav>
     
-    <form action="proc_registro_usuario.php" method="post">
+    <div class="x">
+        <form class="login"action="proc_registro_usuario.php" method="post">
     <?php if(isset($_GET['i'])){ ?>
             <p style="color: red">Email ya registrado, intente con otro</p>
             <?php } ?>
@@ -81,9 +85,9 @@
             <input type="password" name="p2">
         </div>
 
-        <button>Confirmar</button>
+        <button class="boton">Confirmar</button>
     </form>
-
+    </div>
 
         
 </body>
