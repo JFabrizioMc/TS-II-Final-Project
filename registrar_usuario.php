@@ -41,7 +41,7 @@
         </div>
         <div>
            <label for="">DNI</label>
-           <input type="text" name="dni" class="input_bar">
+           <input type="number" name="dni" class="input_bar">
         </div>
         <div>
             <label for="">Correo electronico </label>
