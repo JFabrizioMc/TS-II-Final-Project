@@ -1,0 +1,10 @@
+body{
+    background: url(../imagenes/perro1.jpg);
+    margin: 0;
+    padding: 0;
+    background: url(../imagenes/perro1.jpg);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}

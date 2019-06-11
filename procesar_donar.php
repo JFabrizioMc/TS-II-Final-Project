@@ -1,7 +1,7 @@
 <?php 
 $donaciones = $_POST['donar'];
 
-if($donaciones!=""){
+if($donaciones!="" && $donaciones > 0){
     header("Location: donar.php?aea=ezmoneybby");
     exit;
 }else{
