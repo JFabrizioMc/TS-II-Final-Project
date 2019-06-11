@@ -27,16 +27,16 @@
             <p style="color: red">Las contraseñas no coinciden</p>
             <?php } ?>          
         <div>
-            <label for="">Nombres y Apellidos: </label>
+            <label for="">Nombres y Apellidos </label>
             <input type="text" name="nom" class="input_bar">
             
         </div>
         <div>
-            <label>Numero de celular: </label>
+            <label>Numero de celular </label>
             <input type="number" name="cel" class="input_bar">
         </div>
         <div>
-            <label>Fecha de nacimiento: </label>
+            <label>Fecha de nacimiento </label>
             <input type="date" name="fecha" id="input_bar_date">
         </div>
         <div>
@@ -44,13 +44,13 @@
            <input type="text" name="dni" class="input_bar">
         </div>
         <div>
-            <label for="">Correo electronico: </label>
+            <label for="">Correo electronico </label>
             <input type="email" name="email" class="input_bar">
         </div>       
         <div>
-            <label for="" id="con">Contraseña: </label>
+            <label for="" id="con">Contraseña </label>
             <input type="password" name="p1" class="input_bar">
-            <label for="">Confirmar contraseña: </label>
+            <label for="">Confirmar contraseña </label>
             <input type="password" name="p2" class="input_bar">
         </div>
 
