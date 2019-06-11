@@ -37,7 +37,7 @@
         </div>
         <div>
             <label>Fecha de nacimiento: </label>
-            <input type="date" name="fecha" class="input_bar">
+            <input type="date" name="fecha" id="input_bar_date">
         </div>
         <div>
            <label for="">DNI</label>
