@@ -28,61 +28,30 @@
             <?php } ?>          
         <div>
             <label for="">Nombres y Apellidos: </label>
-            <input type="text" name="nom">
+            <input type="text" name="nom" class="input_bar">
             
         </div>
         <div>
             <label>Numero de celular: </label>
-            <input type="number" name="cel">
+            <input type="number" name="cel" class="input_bar">
         </div>
         <div>
             <label>Fecha de nacimiento: </label>
-            <input type="date" name="fecha">
+            <input type="date" name="fecha" class="input_bar">
         </div>
         <div>
-           <label for="">Ciudad: </label>
-           <select name="ciu">
-            <option value="AM">Amazonas</option>
-            <option value="AN">Ancash</option>
-            <option value="AP">Apurimac</option>
-            <option value="AR">Arequipa</option>
-            <option value="AY">Ayacucho</option>
-            <option value="CA">Cajamarca</option>
-            <option value="CLL">Callao</option>
-            <option value="CU">Cusco</option>
-            <option value="HU">Huancavelica</option>
-            <option value="HUA">Huanuco</option>
-            <option value="IC">Ica</option>
-            <option value="JU">Junin</option>
-            <option value="LI">La Libertad</option>
-            <option value="LA">Lambayaque</option>
-            <option value="LM" selected="true">Lima</option>
-            <option value="LO">Loreto</option>
-            <option value="MD">Madre de Dios</option>
-            <option value="MO">Moquegua</option>
-            <option value="PA">Pasco</option>
-            <option value="PI">Piura</option>
-            <option value="PU">Puno</option>
-            <option value="SM">San Martin</option>
-            <option value="TA">Tacna</option>
-            <option value="TU">Tumbes</option>
-            <option value="UC">Ucayali</option>
-           </select>
-           </div>
-        
-     
-
-    
-        
+           <label for="">DNI</label>
+           <input type="text" name="dni" class="input_bar">
+        </div>
         <div>
             <label for="">Correo electronico: </label>
-            <input type="email" name="email">
+            <input type="email" name="email" class="input_bar">
         </div>       
         <div>
             <label for="" id="con">Contraseña: </label>
-            <input type="password" name="p1">
+            <input type="password" name="p1" class="input_bar">
             <label for="">Confirmar contraseña: </label>
-            <input type="password" name="p2">
+            <input type="password" name="p2" class="input_bar">
         </div>
 
         <button class="boton">Confirmar</button>

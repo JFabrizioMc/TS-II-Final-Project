@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 4.7.0
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 06-06-2019 a las 08:23:03
--- Versión del servidor: 10.1.38-MariaDB
--- Versión de PHP: 7.3.4
+-- Tiempo de generación: 11-06-2019 a las 22:24:50
+-- Versión del servidor: 10.1.25-MariaDB
+-- Versión de PHP: 7.1.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -30,21 +30,20 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `usuarios` (
   `id` int(11) NOT NULL,
-  `nombre` varchar(200) NOT NULL,
-  `fecha` date NOT NULL,
-  `ciudad` varchar(200) NOT NULL,
+  `nombres` varchar(200) NOT NULL,
+  `fecha_n` date NOT NULL,
+  `dni` varchar(100) NOT NULL,
   `email` varchar(200) NOT NULL,
-  `contraseña` varchar(200) NOT NULL,
-  `contacto` varchar(200) NOT NULL
+  `contraseña` varchar(300) NOT NULL,
+  `contacto` varchar(150) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `usuarios` (`id`, `nombre`, `fecha`, `ciudad`, `email`, `contraseña`, `contacto`) VALUES
-(1, 'asd', '2019-05-26', 'AN', 'aldairxd11@hotmail.com', '$2y$10$hBQNQdu4TY2DyQPpUo8N3Oc5c2OsSCNuA.65K2rReVJ7khM2iDfy2', '12345'),
-(2, 'fabrizio manca', '2019-06-05', 'LM', 'cucu@hotmail.com', '$2y$10$K6T1b8VM31CY55Vj6yOEWObWrEOxHR9imbMPh0vLqVRtQZPKHyTia', '1234567');
+INSERT INTO `usuarios` (`id`, `nombres`, `fecha_n`, `dni`, `email`, `contraseña`, `contacto`) VALUES
+(5, 'Jose', '1993-02-01', '7894561', 'pepe.hernandez@usil.pe', '$2y$10$qbA8C5g2OQdcl92WFKOX0.uq6MJLO0kR/B5LYxCxfEjJ.BKkge3M.', '99685765');
 
 --
 -- Índices para tablas volcadas
@@ -64,8 +63,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-COMMIT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

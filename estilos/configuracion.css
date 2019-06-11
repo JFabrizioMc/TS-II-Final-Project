@@ -129,7 +129,7 @@ body {
     display: flex; 
     flex-direction: column;
 }
-
+/** CSS de registrar usuario **/
 #headercitoxd{
     color: #b80f22;
 
@@ -147,3 +147,4 @@ body {
     font-size: 20px;
     padding: 0px 10px;   
 }
+
