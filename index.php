@@ -16,9 +16,7 @@
             <a href="nosotros.php">Que es AHL?</a>
             <a href="adoptar.php">Adopta</a>
             <a href="login.php">Login</a>
-            <a href="registrar_usuario.php">Registrar</a>
-        
-            
+            <a href="registrar_usuario.php">Registrar</a>     
         </nav>
 
         <div class="mensaje">
