@@ -22,10 +22,7 @@ if ($nombres == null || $contacto == null || $fecha == null || $dni==null || $em
                         header("Location: registrar_usuario.php?i=emailexiste"); 
                         exit;
                     }
-                    
-           
-            
-        
+                            
                 else{
                         $password = $_POST['p1'];
                         $passHash = password_hash($password, PASSWORD_BCRYPT);

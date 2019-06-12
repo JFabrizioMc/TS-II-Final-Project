@@ -19,39 +19,32 @@
     <?php if(isset($_GET['i'])){ ?>
             <p style="color: red">Email ya registrado, intente con otro</p>
             <?php } ?>
-    <?php if(isset($_GET['f'])){ ?>
-            <p style="color: red">Faltan datos</p>
-            <?php } ?>
-
-    <?php if(isset($_GET['error'])){ ?>
-            <p style="color: red">Las contraseñas no coinciden</p>
-            <?php } ?>          
         <div>
             <label for="">Nombres y Apellidos </label>
-            <input type="text" name="nom" class="input_bar">
+            <input type="text" name="nom" class="input_bar" required>
             
         </div>
         <div>
             <label>Numero de celular </label>
-            <input type="number" name="cel" class="input_bar">
+            <input type="number" name="cel" class="input_bar" required>
         </div>
         <div>
             <label>Fecha de nacimiento </label>
-            <input type="date" name="fecha" id="input_bar_date">
+            <input type="date" name="fecha" id="input_bar_date" required>
         </div>
         <div>
            <label for="">DNI</label>
-           <input type="number" name="dni" class="input_bar">
+           <input type="number" name="dni" class="input_bar" required>
         </div>
         <div>
             <label for="">Correo electronico </label>
-            <input type="email" name="email" class="input_bar">
+            <input type="email" name="email" class="input_bar" required>
         </div>       
         <div>
             <label for="" id="con">Contraseña </label>
-            <input type="password" name="p1" class="input_bar">
+            <input type="password" name="p1" class="input_bar" required>
             <label for="">Confirmar contraseña </label>
-            <input type="password" name="p2" class="input_bar">
+            <input type="password" name="p2" class="input_bar" required>
         </div>
 
         <button class="boton">Confirmar</button>

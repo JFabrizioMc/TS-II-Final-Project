@@ -9,16 +9,13 @@
 </head>
 <body>
     <h1>Ayudalo a encontrar una familia</h1>
-    <?php if(isset($_GET['f'])){ ?>
-            <p style="color: red">Faltan datos por completar</p>
-            <?php } ?>
     <?php if(isset($_GET['b'])){ ?>
             <p style="color: green">Registro exitoso!</p>
             <?php } ?>        
     <form action="proc_reg_mascota.php" method="post">
     <div>
         <label for="">Nombre</label>
-        <input type="text" name="n">
+        <input type="text" name="n" required>
     </div>
     <div>
         <label for="">Especie</label>
@@ -29,11 +26,15 @@
     </div>
     <div>
         <label for="">Raza</label>
-        <input type="text" name="r">
+        <input type="text" name="r" required>
     </div>
     <div>
         <label for="">Edad(Años y meses aproximados)</label>
-        <input type="text" name="e">
+        <input type="text" name="e" required>
+    </div>
+    <div>
+        <label for="">Subir foto(opcional)<input type="file" name="foto"></label>
+        
     </div>
     <button>Registrar</button>
     </form>    
