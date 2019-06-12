@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 11-06-2019 a las 22:24:50
+-- Tiempo de generación: 12-06-2019 a las 16:42:53
 -- Versión del servidor: 10.1.25-MariaDB
 -- Versión de PHP: 7.1.7
 
@@ -21,6 +21,27 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `proyecto`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `mascotas`
+--
+
+CREATE TABLE `mascotas` (
+  `id` int(11) NOT NULL,
+  `nombre` varchar(200) NOT NULL,
+  `especie` varchar(100) NOT NULL,
+  `raza` varchar(300) NOT NULL,
+  `edad` varchar(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `mascotas`
+--
+
+INSERT INTO `mascotas` (`id`, `nombre`, `especie`, `raza`, `edad`) VALUES
+(1, 'Pancho', 'PE', 'Mestiza', '1 año');
 
 -- --------------------------------------------------------
 
@@ -50,6 +71,12 @@ INSERT INTO `usuarios` (`id`, `nombres`, `fecha_n`, `dni`, `email`, `contraseña
 --
 
 --
+-- Indices de la tabla `mascotas`
+--
+ALTER TABLE `mascotas`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indices de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
@@ -59,6 +86,11 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
+--
+-- AUTO_INCREMENT de la tabla `mascotas`
+--
+ALTER TABLE `mascotas`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
