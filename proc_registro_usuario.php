@@ -32,7 +32,8 @@ if ($nombres == null || $contacto == null || $fecha == null || $dni==null || $em
                         password_verify($password, $passHash);
                         $sql = "INSERT INTO usuarios VALUES (null, '$nombres','$fecha','$dni','$email','$passHash',$contacto)";
                         $pdo ->query($sql);
-                        header("Location: menu.php");
+                        header("Location: menu.php?r=registroexistoso");
+                        exit;
                 }
 }
 
