@@ -47,12 +47,12 @@ $sql1 = "SELECT * FROM mascotas";
     {
         ?>
     <tr>
-        <th><?php echo $fila["nombre"];?></th>
-        <th><?php echo $fila["especie"];?></th>
-        <th><?php echo $fila["raza"];?></th>
-        <th><?php echo $fila["edad"];?></th>
-        <th><a href="imagenes/<?php echo $fila["imagen"];?>"><?php echo $fila["imagen"];?></a></th>
-        <th><button>Adoptar</button></th>
+        <td><?php echo $fila["nombre"];?></td>
+        <td><?php echo $fila["especie"];?></td>
+        <td><?php echo $fila["raza"];?></td>
+        <td><?php echo $fila["edad"];?></td>
+        <td><img id="pet_image" src="imagenes/<?php echo $fila["imagen"];?>" alt=""></th>
+        <td><a href="adoptar.php">Adoptar</a></td>
         
     </tr>
         <?php
