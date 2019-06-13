@@ -11,8 +11,8 @@
     <h1>Ayudalo a encontrar una familia</h1>
     <?php if(isset($_GET['b'])){ ?>
             <p style="color: green">Registro exitoso!</p>
-            <?php } ?>        
-    <form action="proc_reg_mascota.php" method="post">
+    <?php } ?>        
+    <form action="proc_reg_mascota.php" method="post" enctype="multipart/form-data" >
     <div>
         <label for="">Nombre</label>
         <input type="text" name="n" required>
