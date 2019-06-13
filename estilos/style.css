@@ -12,13 +12,12 @@ body{
     display: flex;
     width: 100%;
     height: 100vh;
-    
 }
 
 .flex-container1 nav{
     position: absolute;
     top: 5%;
-    left: 65%;
+    left: 55%;
 }
 
 .logo{
