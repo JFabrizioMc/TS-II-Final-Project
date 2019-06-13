@@ -14,7 +14,7 @@
 
         <div class="subContainer1">
             <h1>Animal Hope for Life AHL</h1>
-                <nav class="barra   ">
+                <nav class="barra">
                     <a href="menu.php">INICIO</a>
                     <a href="reportes.php">REPORTAR</a>
                     <a href="adoptar.php">ADOPTAR</a>        
