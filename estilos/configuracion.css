@@ -4,6 +4,7 @@ body {
     background: url(https://www.eluniverso.com/sites/default/files/styles/powgallery_1024/public/fotos/2018/08/gatos_y_perros.jpg?itok=EaXOjLwD);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-repeat: no-repeat;
+    background-size: 100%;
     text-align: center;
 }
 .x{
