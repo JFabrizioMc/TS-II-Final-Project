@@ -19,7 +19,7 @@
                 <nav class="barra">
                     <a href="menu.php">INICIO</a>
                     <a href="reportes.php">REPORTAR</a>
-                    <a href="registrar_mascota.php">DA EN ADOPCION</a>
+                    <a href="registrar_mascota.php">OFRECER EN ADOPCION</a>
                     <a href="adoptar.php">ADOPTAR</a>        
                     <a href="guia.php">GUIA</a>
                     <a href="opciones.php">OPCIONES</a>
