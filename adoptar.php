@@ -1,47 +1,74 @@
-<?php
-$pdo = new PDO("mysql:host=localhost;dbname=proyecto;charset=utf8","root","");
-$sql1 = "SELECT * FROM mascotas"; 
-    
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="estilos/adoptar_style.css">
+    <title>Adoptar</title>
 </head>
 <body>
     
 <h1>Registros</h1>
-    <table>
-        <tr>
-            <th>Nombre</th>
-            <th>Especie</th>
-            <th>Raza</th>
-            <th>Edad</th>
-            <th>Imagen</th>
-            <th>Operaciones</th>
-        </tr>
-        <?php
-    foreach ($pdo-> query($sql1) as $fila)
-    {
-        ?>
-    <tr>
-        <th><?php echo $fila["nombre"];?></th>
-        <th><?php echo $fila["especie"];?></th>
-        <th><?php echo $fila["raza"];?></th>
-        <th><?php echo $fila["edad"];?></th>
-        <th><a href="imagenes/<?php echo $fila["imagen"];?>"><?php echo $fila["imagen"];?></a></th>
-        <th><button>Adoptar</button></th>
-        
-    </tr>
-        <?php
-    }
-    ?>
-    </table>
+<form action="proc_adoptar.php" method="post">
+    <div>
+        <label for="">Direccion</label>
+        <input type="text" name="d">
+        <select name="direccion" id="">
+            <option value="AN">Ancon</option>
+            <option value="ATE">Ate</option>
+            <option value="BA">Barranco</option>
+            <option value="BRE">Breña</option>
+            <option value="CA">Carabayllo</option>
+            <option value="CHA">Chaclacayo</option>
+            <option value="CHO">Chorrillos</option>
+            <option value="CIE">Cieneguilla</option>
+            <option value="CO">Comas</option>
+            <option value="ELA">El Agustino</option>
+            <option value="HUA">Huaycan</option>
+            <option value="IND">Independencia</option>
+            <option value="JEM">Jesus Maria</option>
+            <option value="LM">La Molina</option>
+            <option value="LV">La Victoria</option>
+            <option value="LI">Lima</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+
+</form>
 
     
 </body>

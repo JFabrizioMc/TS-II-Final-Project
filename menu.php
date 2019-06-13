@@ -1,5 +1,9 @@
 <?php session_start();  ?>
-
+<?php
+$pdo = new PDO("mysql:host=localhost;dbname=proyecto;charset=utf8","root","");
+$sql1 = "SELECT * FROM mascotas"; 
+    
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,6 +33,31 @@
         </div>
      
     </div>
-  
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Especie</th>
+            <th>Raza</th>
+            <th>Edad</th>
+            <th>Imagen</th>
+            <th>Operaciones</th>
+        </tr>
+        <?php
+    foreach ($pdo-> query($sql1) as $fila)
+    {
+        ?>
+    <tr>
+        <td><?php echo $fila["nombre"];?></td>
+        <td><?php echo $fila["especie"];?></td>
+        <td><?php echo $fila["raza"];?></td>
+        <td><?php echo $fila["edad"];?></td>
+        <td><img id="pet_image" src="imagenes/<?php echo $fila["imagen"];?>" alt=""></th>
+        <td><a href="adoptar.php">Adoptar</a></td>
+        
+    </tr>
+        <?php
+    }
+    ?>
+    </table>
 </body>
 </html>
