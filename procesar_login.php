@@ -12,6 +12,10 @@ $numero_rows = $resultado->fetchAll(); */
 if(count($resultado) > 0 ){
     foreach($resultado as $fila){
         if(password_verify($password, $fila['contraseña']) ) {
+            session_start();
+            $_SESSION["usuario"] = $user;
+            $_SESSION["nombres"] = $fila['nombres'];
+
             header("Location: menu.php");
             exit; 
         }

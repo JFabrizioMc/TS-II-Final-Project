@@ -15,14 +15,13 @@
 - Registrar usuarios. 
 - Registrar un animal domestico que este en peligro, que se haya extraviado o que este en adopcion con las siguiente informacion:
     - Caracteristicas fisicas (color, manchas, lesiones, edad, raza, etc).
-    - Lugar donde fue avistado(en caso de peligro o se haya extraviado).
     - Subir Foto de la mascota (si es posible).
-    - Informacion de la persona en caso no tenga cuenta registrada (dni, nombres, edad, telefono de contacto).
+    - Informacion de la persona (dni, nombres, edad, telefono de contacto).
 
-- Visualizar reportes de mascotas extraviadas, en peligro o que esten en adopcion por:
-    - Ubicacion.
+- Visualizar las mascotas que esten en adopcion por:
     - Edad.
     - Especie (gato, perro, aves, etc).
+    - Raza
 
 - Compartir informacion acerca de campañas de esterilizacion en cada distrito de Lima con los usuarios de la comunidad. 
 
