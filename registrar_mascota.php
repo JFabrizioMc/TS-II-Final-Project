@@ -13,30 +13,38 @@
             <p style="color: green">Registro exitoso!</p>
     <?php } ?>        
     <form action="proc_reg_mascota.php" method="post" enctype="multipart/form-data" >
-    <div>
+
+    <div class="line">
         <label for="">Nombre</label>
         <input type="text" name="n" required>
     </div>
-    <div>
+    
+    <div class="line">
         <label for="">Especie</label>
         <select name="es" id="">
         <option value="PE">Perro</option>
         <option value="GA">Gato</option>
         </select>
     </div>
-    <div>
+
+    <div class="line">
         <label for="">Raza</label>
         <input type="text" name="r" required>
     </div>
-    <div>
+
+    <div class="line">
         <label for="">Edad(Años y meses aproximados)</label>
         <input type="text" name="e" required>
     </div>
-    <div>
-        <label for="">Subir foto(opcional)<input type="file" name="foto"></label>
-        
+
+    <div class="line">
+        <label for="">Subir foto(opcional)</label>
+        <input type="file" name="foto">  
     </div>
-    <button>Registrar</button>
+    
+    <div class="boton">
+        <button>Registrar</button>
+    </div>
     </form>    
 </body>
 </html>

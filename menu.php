@@ -13,10 +13,10 @@
 <body>
     <div class="flex-container1">
         <img src="imagenes/logo.png">
-        <p style="color:black">Bienvenido <?php echo $_SESSION["nombres"] ?>!</p>
         <div class="subContainer1">
             <h1>Animal Hope for Life AHL</h1>
                 <nav class="barra">
+                    <p id="nombre_usuario">Bienvenido <?php echo $_SESSION["nombres"] ?>!</p>
                     <a href="menu.php">INICIO</a>
                     <a href="reportes.php">REPORTAR</a>
                     <a href="registrar_mascota.php">OFRECER EN ADOPCION</a>
