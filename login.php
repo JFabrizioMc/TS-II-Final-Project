@@ -1,3 +1,12 @@
+<?php  
+session_start();
+if(isset($_SESSION["usuario"])){
+    header("Location: menu.php?s=sesionyainiciada");
+    exit;
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

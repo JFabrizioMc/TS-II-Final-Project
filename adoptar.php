@@ -35,7 +35,7 @@ $sql1 = "SELECT * FROM mascotas";
         <th><?php echo $fila["raza"];?></th>
         <th><?php echo $fila["edad"];?></th>
         <th><a href="imagenes/<?php echo $fila["imagen"];?>"><?php echo $fila["imagen"];?></a></th>
-        <th>Adoptar</th>
+        <th><button>Adoptar</button></th>
         
     </tr>
         <?php
