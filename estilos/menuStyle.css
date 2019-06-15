@@ -27,7 +27,7 @@ body{
 }
 
 
-.flex-container1 a:link{
+.flex-container1 a{
     text-decoration: none;
     padding: 0px 5px;
     color: cadetblue;
@@ -53,12 +53,9 @@ body{
     font-weight: bold;
 }
 
-#pet_image{
-    width: 123px;
-    height: 101px;
-}
 
-table,th,tr,td{
+
+th,tr,td{
     margin: 0 auto;
     border: 1px solid black ;
     width: 200px;
@@ -67,7 +64,14 @@ table,th,tr,td{
     background-color: cornsilk;
     color: black;
 }
-a:link{
-    color:red;
-    text-decoration: none;
+
+table{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;  
+}
+
+#celdaImg{
+    width: 30%;
+    height: 30%;
 }

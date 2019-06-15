@@ -27,13 +27,18 @@
         <img src="imagenes/perro.jpg">
     </div>
 
+    
     <div class="flex-container2">
 
-       <a href="registrar_usuario.php" class="boton1"></a>
         <div class="mensaje2">
             <p>Deseas ayudar a un pequeño amigo? Adopta mediante AHL y llena de amor tu vida!</p>
         </div>
-        <img src="imagenes/perroyorki.jpg">
+
+        <div class="mensaje3">
+            <p>Haz que no sufran, aportando con un pequeño donativo.</p>
+        </div>
+        <a href="adoptar.php"><img src="imagenes/perroyorki.jpg" id="img2"></a>
+        <a href="donar.php"><img src="imagenes/gatoLisiado.jpg" id="img3"></a>
     </div>
 
     <footer>

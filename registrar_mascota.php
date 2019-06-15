@@ -18,6 +18,13 @@
         <label for="">Nombre</label>
         <input type="text" name="n" required>
     </div>
+
+    <div id="lineR">
+        <label for="" id="labelSex">Sexo</label>
+        <input class="radioB" type="radio" name="sexo" value="Macho"  required>Macho
+        <input class="radioB" type="radio" name="sexo" value="Hembra" required>Hembra
+        <input class="radioB" type="radio" name="sexo" value="NA" required>N.A
+    </div>
     
     <div class="line">
         <label for="">Especie</label>

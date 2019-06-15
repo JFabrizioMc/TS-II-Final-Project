@@ -36,6 +36,7 @@ $sql1 = "SELECT * FROM mascotas";
     <table>
         <tr>
             <th>Nombre</th>
+            <th>Sexo</th>
             <th>Especie</th>
             <th>Raza</th>
             <th>Edad</th>
@@ -48,10 +49,17 @@ $sql1 = "SELECT * FROM mascotas";
         ?>
     <tr>
         <td><?php echo $fila["nombre"];?></td>
+        <td><?php echo $fila["sexo"];?></td>
         <td><?php echo $fila["especie"];?></td>
         <td><?php echo $fila["raza"];?></td>
         <td><?php echo $fila["edad"];?></td>
-        <td><img id="pet_image" src="imagenes/<?php echo $fila["imagen"];?>" alt=""></th>
+        <td id="celdaImg"><?php
+        if($fila["imagen"]!=null){ ?>
+            <img id="pet_image" src="imagenes/<?php echo $fila["imagen"];?>" width="300px" height="200px" alt="">
+       <?php }else{ ?>
+                <p style="color: green">SIN FOTO</p>
+        <?php } ?> 
+            </td>
         <td><a href="adoptar.php">Adoptar</a></td>
         
     </tr>

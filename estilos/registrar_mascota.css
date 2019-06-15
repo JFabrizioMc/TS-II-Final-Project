@@ -52,3 +52,17 @@ form{
 button{
     width: 50%;
 }
+
+#labelSex{
+    width: 50%;
+}
+
+#lineR{
+    display: flex;
+    width: 80%;
+    margin: 5px 0px;
+}
+
+
+
+

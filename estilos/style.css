@@ -17,7 +17,7 @@ body{
 .flex-container1 nav{
     position: absolute;
     top: 5%;
-    left: 55%;
+    left: 60%;
 }
 
 .logo{
@@ -28,16 +28,16 @@ body{
     left: 0%;
 }
 
-.flex-container1 a:link{   
-    color: white;
+.flex-container1 a{   
+    color: gold;
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     padding: 0px 10px;
 }
 
 .mensaje{
-    font-size: 25px;
+    font-size: 28px;
     font-weight: bold;
     width: 30%;
     height: 40%;
@@ -50,27 +50,60 @@ body{
 
 footer{
     background-color: rgb(90, 143, 38);
+    width: 100%;
+    height: 20%;
     color: white;
+}
+
+footer p{
+    padding: 5px;
 }
 
 .flex-container2{
     display: flex;
     position: relative;
-    width: 50%;
+    width: 100%;
     height: 700px;
     justify-content: center;
     text-align: center;
 }
 
-.flex-container2 img{min-width: 100%; opacity: 0.5; filter: alpha(opacity=50);}
+#img2{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 50%;
+    height: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#img3{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
 
 .mensaje2{
     position: absolute;
     top: 50%;
-    left: 10%;
-    font-size: 18px;
+    left: 3%;
+    font-size: 20px;
     color: black;
     font-weight: bold;  
+}
+
+.mensaje3{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
 }
 
 .boton1{

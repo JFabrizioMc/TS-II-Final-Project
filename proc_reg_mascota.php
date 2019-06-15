@@ -4,6 +4,7 @@ $nombre = $_POST['n'];
 $especie = $_POST['es'];
 $raza = $_POST['r'];
 $edad = $_POST['e'];
+$sexo =$_POST['sexo'];
 // IMAGEN
 $nombre_img = $_FILES['foto']['name'];
 $tipo=$_FILES['foto']['type'];
@@ -14,7 +15,7 @@ $tmp = $_FILES['foto']['tmp_name'];
 if(($nombre_img!=NULL)){
     if (($_FILES["foto"]["type"] == "image/gif") ||($_FILES["foto"]["type"] == "image/jpeg")|| ($_FILES["foto"]["type"] == "image/jpg")|| ($_FILES["imagen"]["type"] == "image/png")){
         move_uploaded_file($tmp,"imagenes/".$nombre_img) ;
-        $sql="INSERT INTO mascotas VALUES (NULL,'$nombre','$especie','$raza','$edad','$nombre_img')";
+        $sql="INSERT INTO mascotas VALUES (NULL,'$nombre','$sexo','$especie','$raza','$edad','$nombre_img')";
         $pdo->query($sql);
         header("Location: registrar_mascota.php?b=registroexitoso");
     }
@@ -24,8 +25,8 @@ if(($nombre_img!=NULL)){
     }
 
 }else{
-    $mensaje="NO IMAGEN";
-    $sql="INSERT INTO mascotas VALUES (NULL,'$nombre','$especie','$raza','$edad','$mensaje')";
+    $mensaje=null;
+    $sql="INSERT INTO mascotas VALUES (NULL,'$nombre','$sexo','$especie','$raza','$edad','$mensaje')";
     $pdo->query($sql);
     header("Location: registrar_mascota.php?b=registroexitoso");
 }
