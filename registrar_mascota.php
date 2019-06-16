@@ -8,6 +8,7 @@
     <title>Registrar mascota</title>
 </head>
 <body>
+    <a href="menu.php">Inicio</a>
     <h1>Ayudalo a encontrar una familia</h1>
     <?php if(isset($_GET['b'])){ ?>
             <p style="color: green">Registro exitoso!</p>

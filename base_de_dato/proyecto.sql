@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.0
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 13-06-2019 a las 22:37:00
--- Versión del servidor: 10.1.25-MariaDB
--- Versión de PHP: 7.1.7
+-- Tiempo de generación: 17-06-2019 a las 00:21:15
+-- Versión del servidor: 10.1.38-MariaDB
+-- Versión de PHP: 7.1.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -25,12 +25,35 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `adopcion`
+--
+
+CREATE TABLE `adopcion` (
+  `id` int(11) NOT NULL,
+  `id_mascota` int(11) NOT NULL,
+  `nombres` varchar(200) NOT NULL,
+  `dni` varchar(200) NOT NULL,
+  `direccion` varchar(300) NOT NULL,
+  `distrito` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `adopcion`
+--
+
+INSERT INTO `adopcion` (`id`, `id_mascota`, `nombres`, `dni`, `direccion`, `distrito`) VALUES
+(1, 0, 'Jose Fabrizio Manco Cornejo', '73110253', 'Av.Separadora Industrial 3074', 'LM');
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `mascotas`
 --
 
 CREATE TABLE `mascotas` (
   `id` int(11) NOT NULL,
   `nombre` varchar(200) NOT NULL,
+  `sexo` varchar(10) NOT NULL,
   `especie` varchar(100) NOT NULL,
   `raza` varchar(300) NOT NULL,
   `edad` varchar(200) NOT NULL,
@@ -41,10 +64,8 @@ CREATE TABLE `mascotas` (
 -- Volcado de datos para la tabla `mascotas`
 --
 
-INSERT INTO `mascotas` (`id`, `nombre`, `especie`, `raza`, `edad`, `imagen`) VALUES
-(1, 'Pancho', 'PE', 'Mestiza', '1 año', ''),
-(3, 'Panchito', 'GA', 'Persa', '2 años', 0x70616e63686f2e6a7067),
-(4, 'Flash', 'PE', 'golden retriever', '3 años', 0x4e4f20494d4147454e);
+INSERT INTO `mascotas` (`id`, `nombre`, `sexo`, `especie`, `raza`, `edad`, `imagen`) VALUES
+(5, 'Luchito', 'Hembra', 'PE', 'Mestiza', '3 años', '');
 
 -- --------------------------------------------------------
 
@@ -76,6 +97,12 @@ INSERT INTO `usuarios` (`id`, `nombres`, `fecha_n`, `dni`, `email`, `contraseña
 --
 
 --
+-- Indices de la tabla `adopcion`
+--
+ALTER TABLE `adopcion`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indices de la tabla `mascotas`
 --
 ALTER TABLE `mascotas`
@@ -92,15 +119,23 @@ ALTER TABLE `usuarios`
 --
 
 --
+-- AUTO_INCREMENT de la tabla `adopcion`
+--
+ALTER TABLE `adopcion`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT de la tabla `mascotas`
 --
 ALTER TABLE `mascotas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;COMMIT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

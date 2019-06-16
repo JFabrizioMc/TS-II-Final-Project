@@ -14,7 +14,6 @@
         <img class="logo" src="imagenes/logo.png">
         <nav>
             <a href="nosotros.php">Que es AHL?</a>
-            <a href="adoptar.php">Adopta</a>
             <a href="login.php">Login</a>
             <a href="registrar_usuario.php">Registrar</a>
             <a href="donar.php">Donaciones</a>     
@@ -37,7 +36,7 @@
         <div class="mensaje3">
             <p>Haz que no sufran, aportando con un pequeño donativo.</p>
         </div>
-        <a href="adoptar.php"><img src="imagenes/perroyorki.jpg" id="img2"></a>
+        <a href="login.php"><img src="imagenes/perroyorki.jpg" id="img2"></a>
         <a href="donar.php"><img src="imagenes/gatoLisiado.jpg" id="img3"></a>
     </div>
 
