@@ -25,8 +25,7 @@ $sql1 = "SELECT * FROM mascotas";
                     <a href="reportes.php">REPORTAR</a>
                     <a href="registrar_mascota.php">OFRECER EN ADOPCION</a>
                     <a href="adoptar.php">ADOPTAR</a>        
-                    <a href="guia.php">ANUNCIOS</a>
-                    <a href="opciones.php">OPCIONES</a>
+                    <a href="anuncios.php">ANUNCIOS</a>
                     <a href="donar.php">DONAR</a>
                     <a href="logout.php">CERRAR SESION</a>
                 </nav>
