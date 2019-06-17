@@ -1,0 +1,78 @@
+body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Open Sans', Arial;    
+}
+
+#barraSuperior{
+    position: absolute;
+    background-color: darkolivegreen;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 150px;
+}
+
+#barraSuperior nav{ 
+    position: absolute;
+    top: 40%;
+    left: 65%;
+}
+
+#barraSuperior a{   
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.contenedorDeslizable{
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    left: 0%;
+    margin: 0%;
+}
+
+#logo{
+    position: absolute;
+    top:0%;
+    left: 0%;
+    width: 200px;
+    height: 150px;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    height: 830px;
+  }
+
+.contenedor-flex{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    text-align: center;
+}
+
+  /* Animacion fade */
+  .fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }

@@ -11,6 +11,7 @@
 </head>
 <body>
     <div class="flex-container1">
+        
         <img class="logo" src="imagenes/logo.png">
         <nav>
             <a href="nosotros.php">Que es AHL?</a>
@@ -22,8 +23,8 @@
         <div class="mensaje">
             <p>Estoy a favor del derecho de los animales, al igual que del derecho de los humanos. Ese es el camino de un ser humano completo (Abraham Lincoln)</p>
         </div>
-
-        <img src="imagenes/perro.jpg">
+        
+        <img src="imagenes/slide1.jpg">
     </div>
 
     

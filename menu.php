@@ -22,7 +22,6 @@ $sql1 = "SELECT * FROM mascotas";
                 <nav class="barra">
                     <p id="nombre_usuario">Bienvenido <?php echo $_SESSION["nombres"] ?>!</p>
                     <a href="menu.php">INICIO</a>
-                    <a href="reportes.php">REPORTAR</a>
                     <a href="registrar_mascota.php">OFRECER EN ADOPCION</a>
                     <a href="adoptar.php">ADOPTAR</a>        
                     <a href="anuncios.php">ANUNCIOS</a>
@@ -59,7 +58,7 @@ $sql1 = "SELECT * FROM mascotas";
                 <p style="color: green">SIN FOTO</p>
         <?php } ?> 
             </td>
-        <td><a href="adoptar.php">Adoptar</a></td>
+        <td><a href="adoptar.php?id=<?php echo $fila["id"] ?>_mascota">Adoptar</a></td>
         
     </tr>
         <?php
