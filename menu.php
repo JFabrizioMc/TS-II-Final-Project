@@ -58,7 +58,7 @@ $sql1 = "SELECT * FROM mascotas";
                 <p style="color: green">SIN FOTO</p>
         <?php } ?> 
             </td>
-        <td><a href="adoptar.php?id=<?php echo $fila["id"] ?>_mascota">Adoptar</a></td>
+        <td><a href="adoptar.php?id=<?php echo $fila["id"] ?>">Adoptar</a></td>
         
     </tr>
         <?php

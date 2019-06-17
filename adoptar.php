@@ -1,8 +1,8 @@
 <?php
 $id = $_GET['id'];
 $pdo = new PDO("mysql:host=localhost;dbname=proyecto;charset=utf8","root","");
-
-
+$resultado = $pdo ->query("SELECT * FROM mascotas WHERE id = '$id'");
+$fila = $resultado -> fetch();
 ?>
 
 <!DOCTYPE html>

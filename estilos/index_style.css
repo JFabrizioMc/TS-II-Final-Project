@@ -5,7 +5,7 @@ body{
 
 #barraSuperior{
     position: absolute;
-    background-color: darkolivegreen;
+    background-color: darkseagreen;
     top: 0%;
     left: 0%;
     width: 100%;
@@ -20,7 +20,7 @@ body{
 }
 
 #barraSuperior a{   
-    color: gold;
+    color: firebrick;
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;

@@ -14,8 +14,7 @@
         <nav>
             <a href="nosotros.php">Que es AHL?</a>
             <a href="login.php">Login</a>
-            <a href="registrar_usuario.php">Registrar</a>
-            <a href="donar.php">Donaciones</a>     
+            <a href="registrar_usuario.php">Registrar</a>     
         </nav>
     </div>
 

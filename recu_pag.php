@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="estilos/configuracion.css">
 </head>
 <body>
-    <form action="procesar.php" method="post">
+    <form action="proc_update.php" method="post">
         <div class="login1">
             <div class="ed">
                 <label for="">Contraseña nueva</label>
