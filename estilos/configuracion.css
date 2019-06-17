@@ -8,23 +8,17 @@ body {
     text-align: center;
     background-size: 100%;
 }
-.x{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
   
   
 .login {
+    margin:0 auto ;
     width: 328px;
     height: 620px;
     background: rgb(93, 93, 93);
     color: rgb(0, 0, 0);
     padding:20px ;
     border-radius: 20px;
-    display: flex; 
-    flex-direction: column;
-
 }
   
 .avatar {
@@ -130,6 +124,35 @@ body {
     display: flex; 
     flex-direction: column;
 }
+
+.login1{
+    margin:20% auto ;
+    width: 328px;
+    height: 172px;
+    background: rgb(93, 93, 93);
+    color: rgb(0, 0, 0);
+    padding:20px ;
+    border-radius: 20px;
+}
+
+.login1 h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login1 label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.login1 input {
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
 /** CSS de registrar usuario **/
 #headercitoxd{
     color: #b80f22;
