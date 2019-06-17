@@ -1,20 +1,17 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(https://www.eluniverso.com/sites/default/files/styles/powgallery_1024/public/fotos/2018/08/gatos_y_perros.jpg?itok=EaXOjLwD);
+    background-image: url('../imagenes/gatogris.jpg');
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-repeat: no-repeat;
-    background-size: 100%;
     text-align: center;
-    background-size: 100%;
+    background-size: 100% 100vh;
 }
 
-  
-  
 .login {
     margin:0 auto ;
-    width: 328px;
-    height: 620px;
+    width: 340px;
+    height: 640px;
     background: rgb(93, 93, 93);
     color: rgb(0, 0, 0);
     padding:20px ;
@@ -29,7 +26,6 @@ body {
 .ed{
     margin-left: auto;
     margin-right: auto;
-    
 }
   
 .login h1 {
@@ -91,26 +87,21 @@ body {
     display: flex;
     width: 100%;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 .menu h1 {
     color: #b80f22;
 }
 
-.menu nav{
-    position: absolute;
-    top: 5%;
-    left: 80%;
-
-}
-
 .menu a{
+    position: absolute;
+    top: 3%;
+    left: 90%;
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 28px;
     padding: 0px 10px;   
     
 }

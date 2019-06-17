@@ -1,8 +1,41 @@
 body{
-    background: url(https://t1.ea.ltmcdn.com/es/images/4/7/0/img_nombres_para_perros_con_la_letra_b_23074_600.jpg) no-repeat;
-    background-size: 100%;
+    background: url('../imagenes/nosotros.jpg') no-repeat;
+    background-size: 100% 100vh;
+    color: black;
 }
 
-h1{
-    color: white;
+#logo{
+    position: absolute;
+    left: 45%;
+    width: 210px;
+    height: 200px;
+}
+
+#inicio{
+    position: absolute;
+    font-family: "kalam";
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+    top: 1%;
+    left: 2%;
+}
+
+#mensaje{
+    position: absolute;
+    background-color: darkgoldenrod;
+    width: 100%;
+    left: 0%;
+    top: 20%;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+}
+
+#mensaje p{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    filter: none;
 }
