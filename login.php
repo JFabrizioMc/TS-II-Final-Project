@@ -5,8 +5,6 @@ if(isset($_SESSION["usuario"])){
     exit;
 }
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +23,7 @@ if(isset($_SESSION["usuario"])){
           
     </nav>
     </div>
-    <form action="procesar_login.php" method="POST" class="x">
+    <form action="procesar_login.php" method="POST" >
         <div class="login">
             <div class="ed">
                 <img src="imagenes/logo.png" class="avatar" alt="Avatar Image">
