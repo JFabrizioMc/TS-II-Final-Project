@@ -1,3 +1,10 @@
+<?php
+$id = $_GET['id'];
+$pdo = new PDO("mysql:host=localhost;dbname=proyecto;charset=utf8","root","");
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,6 +81,9 @@
             <option value="VMT">Villa Maria del Triunfo</option>
         </select>
 
+    </div>
+    <div>
+        <input type="hidden" name="id" value="<?php echo $id ?>">
     </div>
     <button>Enviar Solicitud</button>
 
