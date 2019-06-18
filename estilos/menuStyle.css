@@ -61,7 +61,7 @@ th,tr,td{
     width: 200px;
     height: 100px;
     text-align: center;
-    background-color: cornsilk;
+    background-color: rgba(255, 248, 220, 0.363);
     color: black;
 }
 
