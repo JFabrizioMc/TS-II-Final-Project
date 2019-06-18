@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos/index_style.css">
     <script src="https://kit.fontawesome.com/7ad55b8f63.js"></script>
     <title>Pagina Principal</title>
@@ -45,11 +45,7 @@
             <p id="citaSlide5">Hasta que uno no ha amado un animal, una parte del alma sigue sin despertar (Anatole France)</p>
             <img src="imagenes/slide5.jpg" style="width:100%">
         </div>
-        <!--Botones Next y Previous-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>-->
 
-        <!--Implementacion de JavaScript para el slide-->
         <script>
             var slideIndex = 0;
             showSlides();
@@ -75,7 +71,7 @@
         </div>
         
         <div class="developers">
-            <p>© 2019 GroupNoALaBica Derechos Reservados, Desarrolladores: Luis Delzo, Fabrizio Manco, Aparicio Alan. Powered by Usil</p>
+            <p>© 2019 GroupDileNoALaBica Derechos Reservados, Desarrolladores: Luis Delzo, Fabrizio Manco, Aparicio Alan. Powered by Usil</p>
         </div>
         
     </footer>

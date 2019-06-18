@@ -18,11 +18,12 @@ body {
     border-radius: 20px;
 }
   
-.avatar {
+.avatar{
     height: 200px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .ed{
     margin-left: auto;
     margin-right: auto;
@@ -51,11 +52,9 @@ body {
 .email , .contra {
     border: none;
     border-bottom: 1px solid #fff;
-    opacity: 0.2;
     border-radius: 10px;
     outline: none;
     height: 40px;
-    color: #fff;
     font-size: 16px;
 }
   
@@ -167,7 +166,6 @@ body {
 .input_bar{
     border:none;
     border-bottom: 1px solid white;
-    background: transparent;
     outline: none;
     color:white;
 }
