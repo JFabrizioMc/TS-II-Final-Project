@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,10 @@
     <title>Anuncios Importantes</title>
 </head>
 <body>
+    <?php if(isset($_SESSION['usuario'])){?> 
     <h1>Enterate de futuras noticias sobre campañas para ayudar a tus mascotas!</h1>
+    <?php }else{ ?>
+    <?php header("Location: index.php"); } ?>
     
 </body>
 </html>

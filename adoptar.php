@@ -1,4 +1,5 @@
 <?php
+session_start();
 $pdo = new PDO("mysql:host=localhost;dbname=proyecto;charset=utf8","root","");
 if(isset($_GET['id'])){
     $id = $_GET['id'];
@@ -18,7 +19,7 @@ if(isset($_GET['id'])){
     <title>Adoptar</title>
 </head>
 <body>
-    
+<?php if(isset($_SESSION['usuario'])){?>
 <h1>Registros</h1>
 <a href="menu.php">Inicio</a>
 <?php if(isset($_GET['n'])){ ?>
@@ -89,8 +90,12 @@ if(isset($_GET['id'])){
         <input type="hidden" name="id" value="<?php echo $id ?>">
     </div>
     <button>Enviar Solicitud</button>
-
 </form>
+
+
+<?php }else{ ?>
+
+<?php header("Location: index.php"); } ?>
 
     
 </body>

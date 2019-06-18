@@ -15,6 +15,7 @@ $sql1 = "SELECT * FROM mascotas";
     <title>Menu Principal</title>
 </head>
 <body>
+    <?php if(isset($_SESSION['usuario'])){?>
     <div class="flex-container1">
         <img src="imagenes/logo.png">
         <div class="subContainer1">
@@ -66,5 +67,12 @@ $sql1 = "SELECT * FROM mascotas";
     }
     ?>
     </table>
+
+    
+
+<?php }else{ ?>
+
+<?php header("Location: index.php"); } ?>
+
 </body>
 </html>

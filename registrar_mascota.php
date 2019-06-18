@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +10,8 @@
     <title>Registrar mascota</title>
 </head>
 <body>
+    <?php if(isset($_SESSION['usuario'])){?>
+
     <a href="menu.php">Inicio</a>
     <h1>Ayudalo a encontrar una familia</h1>
     <?php if(isset($_GET['b'])){ ?>
@@ -54,5 +58,10 @@
         <button>Registrar</button>
     </div>
     </form>    
+
+    <?php }else{ ?>
+    
+    <?php header("Location: index.php"); } ?>
+
 </body>
 </html>
