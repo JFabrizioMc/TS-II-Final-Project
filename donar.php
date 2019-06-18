@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,8 +11,11 @@
 </head>
 <body>
     <h1>Donaciones</h1>
+    <?php if(isset($_SESSION['usuario'])){?>
     
    <form action="procesar_donar.php" method="post">
+
+
         <div>
             <label>Monto: <input type="number" name="donar">£</label>
             
@@ -22,5 +27,10 @@
    <?php }else if(isset($_GET['t'])){ ?>
         <p style="color: red">Dona p chamare :C somos pobres xd </p>
   <?php } ?>
+
+   <?php }else{ ?>
+
+    <?php header("Location: index.php"); } ?>
+
 </body>
 </html>
