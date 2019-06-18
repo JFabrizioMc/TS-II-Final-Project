@@ -71,7 +71,7 @@
     <footer>
         <div class="siguenos">
             <p>Siguenos en nuestras redes:</p>
-            <a href="https://www.facebook.com/Animal-Hope-for-Life-343106826380758/?view_public_for=343106826380758 "><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.facebook.com/Animal-Hope-for-Life-343106826380758/?view_public_for=343106826380758 " target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
         </div>
         
         <div class="developers">

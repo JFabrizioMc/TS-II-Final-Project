@@ -12,7 +12,7 @@
         <div class="login1">
             <div class="ed">
                 <label for="">Contraseña nueva</label>
-                <input type="text" name="c_n" class="email">
+                <input type="password" name="c_n" class="email">
             </div>
         
 
