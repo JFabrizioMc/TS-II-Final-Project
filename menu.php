@@ -72,7 +72,7 @@ $sql1 = "SELECT * FROM mascotas";
 
 <?php }else{ ?>
 
-<?php header("Location: index.php"); } ?>
+<?php header("Location: login.php?i=iniciesesion"); } ?>
 
 </body>
 </html>

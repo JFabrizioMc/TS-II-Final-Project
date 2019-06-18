@@ -95,7 +95,7 @@ if(isset($_GET['id'])){
 
 <?php }else{ ?>
 
-<?php header("Location: index.php"); } ?>
+<?php header("Location: login.php?i=iniciesesion"); } ?>
 
     
 </body>
