@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="estilos/index_style.css">
     <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+    <link rel="stylesheet" href="estilos/index_style.css">
+    <script src="https://kit.fontawesome.com/7ad55b8f63.js"></script>
     <title>Pagina Principal</title>
 </head>
 <body>
     <div id="barraSuperior">
         <img id="logo" src="imagenes/logo.png">
-        <nav>
-            <a href="nosotros.php">Que es AHL?</a>
-            <a href="login.php">Login</a>
-            <a href="registrar_usuario.php">Registrar</a>     
+        <nav id="enlaces"> 
+            <a href="nosotros.php"><i class="fas fa-home" aria-hidden="true"></i> Que es AHL?</a>
+            <a href="login.php"><i class="fas fa-sign-in-alt" aria-hidden="true"></i> Login</a>
+            <a href="registrar_usuario.php"><i class="fas fa-user-plus"></i> Registrar</a>
         </nav>
     </div>
 
@@ -68,8 +69,15 @@
     </div>
 
     <footer>
-        <p>Desarrolladores: Luis Delzo, Fabrizio Manco, Aparicio Alan.</p>
-        <p>2019 - Peru</p>
+        <div class="siguenos">
+            <p>Siguenos en nuestras redes:</p>
+            <a href="https://www.facebook.com/Animal-Hope-for-Life-343106826380758/?view_public_for=343106826380758 "><i class="fab fa-facebook fa-2x"></i></a>
+        </div>
+        
+        <div class="developers">
+            <p>© 2019 GroupNoALaBica Derechos Reservados, Desarrolladores: Luis Delzo, Fabrizio Manco, Aparicio Alan. Powered by Usil</p>
+        </div>
+        
     </footer>
     
 </body>
