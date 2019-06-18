@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="estilos/registrar_mascota.css">
     <script src="https://kit.fontawesome.com/7ad55b8f63.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet">
     <title>Registrar mascota</title>
 </head>
 <body>

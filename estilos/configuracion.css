@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('../imagenes/gatogris.jpg');
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Mali', cursive;
     background-repeat: no-repeat;
     text-align: center;
     background-size: 100% 100vh;
@@ -12,7 +12,7 @@ body {
     margin:0 auto ;
     width: 340px;
     height: 640px;
-    background: rgb(93, 93, 93);
+    background:rgba(126, 123, 123, 0.555);
     color: rgb(0, 0, 0);
     padding:20px ;
     border-radius: 20px;
@@ -51,7 +51,8 @@ body {
 .email , .contra {
     border: none;
     border-bottom: 1px solid #fff;
-    background: transparent;
+    opacity: 0.2;
+    border-radius: 10px;
     outline: none;
     height: 40px;
     color: #fff;
@@ -108,7 +109,7 @@ body {
 .formulario{
     width: 328px;
     height: 568px;
-    background: rgb(93, 93, 93);
+    background: white;
     color: rgb(0, 0, 0);
     padding:20px ;
     border-radius: 20px;

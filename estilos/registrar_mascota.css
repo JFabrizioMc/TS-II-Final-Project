@@ -2,7 +2,7 @@ body{
     background: url(https://s6.eestatic.com/2019/03/06/como/Perros-Mascotas-Alimentacion-Motivacion-Estres-Gatos-Educacion-Como_hacer_381222727_117155265_1024x576.jpg) ;
     background-size: 100% 100vh;    
     text-align: center;
-    font-family: 'Open Sans', Arial;  
+    font-family: 'Mali', cursive;
     font-weight: 400;
     line-height: 1;
     
@@ -27,6 +27,7 @@ body{
     font-weight: bold;
     font-size: 18px;    
     padding: 2em 1em;
+    color:  brown;
 }
 
 #nombre_usuario{
@@ -35,7 +36,7 @@ body{
 }
 
 .barra a:hover{
-    background-color: rgb(184, 54, 184);
+    background-color: rgba(0, 0, 0, 0.267);
     color: white;
 }
 
@@ -66,7 +67,7 @@ form{
     left: 40px;
     width: 500px;
     height: 250px;
-    background: darksalmon;
+    background: rgba(233, 150, 122, 0.37);
     color: rgb(0, 0, 0);
     padding:20px ;
     border-radius: 20px;

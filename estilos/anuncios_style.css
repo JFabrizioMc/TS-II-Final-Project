@@ -3,6 +3,7 @@ body{
     background: url(https://images.pexels.com/photos/46024/pexels-photo-46024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     text-align: center;
     background-size: 100%;
+    font-family: 'Mali', cursive;
 }
 
 /*Parte Superior de Pagina*/
@@ -42,7 +43,6 @@ body{
 
 /*Contenido*/
 h1{
-    font-family: 'Ubuntu', sans-serif;
     color: cadetblue(192, 178, 99);
 }
 

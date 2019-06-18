@@ -11,10 +11,11 @@ if(isset($_SESSION["usuario"])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
     <link rel="stylesheet" href="estilos/configuracion.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet">
+    <title>Login</title>
 </head>
 <body>
     <div class="menu">
