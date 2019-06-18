@@ -7,13 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="estilos/registrar_mascota.css">
+    <script src="https://kit.fontawesome.com/7ad55b8f63.js"></script>
     <title>Registrar mascota</title>
 </head>
 <body>
     <?php if(isset($_SESSION['usuario'])){?>
-
-    <a href="menu.php">Inicio</a>
-    <h1>Ayudalo a encontrar una familia</h1>
+     
+    <div class="areaSuperior">
+        <img id="logo" src="imagenes/logo.png">
+        <p id="nombre_usuario">Bienvenido <?php echo $_SESSION["nombres"] ?>!</p>
+        <nav class="barra">
+                    <a href="menu.php"><i class="fas fa-home" aria-hidden="true"></i> INICIO</a>
+                    <a href="registrar_mascota.php"><i class="fas fa-cat"></i> OFRECER EN ADOPCION</a>        
+                    <a href="anuncios.php"><i class="fas fa-bullhorn"></i> ANUNCIOS</a>
+                    <a href="donar.php"><i class="fas fa-donate"></i> DONAR</a>
+                    <a href="logout.php"><i class="fas fa-sign-out-alt"></i> CERRAR SESION</a>
+                </nav>
+    </div>
+   
     <?php if(isset($_GET['b'])){ ?>
             <p style="color: green">Registro exitoso!</p>
     <?php } ?>        
@@ -57,6 +68,7 @@
     <div class="boton">
         <button>Registrar</button>
     </div>
+
     </form>    
 
     <?php }else{ ?>

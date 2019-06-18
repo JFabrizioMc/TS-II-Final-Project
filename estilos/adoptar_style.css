@@ -1,3 +1,83 @@
 body{
      font-family: 'Open Sans', Arial;
+     background-image: url('../imagenes/perrotaza.jpg');
+     background-repeat: no-repeat;
+     background-size: 100% 100vh;
+}
+
+.parteSuperior{
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     justify-content: space-between;
+     margin: auto;
+     align-items: center;
+}
+
+.barra{
+     margin-right: 1em;
+}
+
+.barra a{
+     display: inline-block;
+     text-decoration: none;
+     font-weight: bold;
+     font-size: 18px;    
+     padding: 2em 1em;
+ }
+
+.barra a:hover{
+     background-color: rgb(184, 54, 184);
+     color: white;
+}
+ 
+
+#logo{
+     margin-left: 1em;   
+     width: 200px;
+     height: 150px;
+ }
+
+form{
+     background-color: darkorange;
+     font-size: 18px;
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     margin-left: 20px;
+     padding: 20px;
+     width: 800px;
+     height: 250px;
+}
+
+.line{
+     display: inline-block;
+     margin: 10px 0px;
+     width: 100%;
+}
+
+.lineB{
+     display: inline-block;
+     text-align: right;
+     margin: 10px 0px;
+     width: 100%;
+}
+
+label, input{
+     display: inline-block;
+     width:40%;
+}
+
+input,select {
+     height: 20px;
+}
+
+.lineD label, input{
+     display: inline-block;
+     width:30%;
+}
+
+button{
+     width: 30%;
+     height: 40px;
 }

@@ -19,25 +19,37 @@ if(isset($_GET['id'])){
     <title>Adoptar</title>
 </head>
 <body>
-<?php if(isset($_SESSION['usuario'])){?>
-<h1>Registros</h1>
-<a href="menu.php">Inicio</a>
-<?php if(isset($_GET['n'])){ ?>
-    <p style="color: green">Evaluaremos tu solicitud y te enviaremos un email con nuestra respuesta!</p>
-<?php } ?>        
-<form action="proc_adoptar.php" method="post">
-    <div>
-        <label for="">Nombres Completo</label>
-        <input type="text" name="n" required>
+    <?php if(isset($_SESSION['usuario'])){?>
+
+    <div class="parteSuperior">
+        <img id="logo" src="imagenes/logo.png">
+        <nav class="barra">
+                <a href="menu.php"><i class="fas fa-home" aria-hidden="true"></i> INICIO</a>
+                <a href="registrar_mascota.php"><i class="fas fa-cat"></i> OFRECER EN ADOPCION</a>        
+                <a href="anuncios.php"><i class="fas fa-bullhorn"></i> ANUNCIOS</a>
+                <a href="donar.php"><i class="fas fa-donate"></i> DONAR</a>
+                <a href="logout.php"><i class="fas fa-sign-out-alt"></i> CERRAR SESION</a>
+        </nav>
     </div>
-    <div>
-        <label for="">DNI</label>
-        <input type="number" name="dni" required>
-    </div>
-    <div>
-        <label for="">Direccion</label>
-        <input type="text" name="d" required>
-        <select name="distrito" id="" required>
+
+    <?php if(isset($_GET['n'])){ ?>
+        <p style="color: green">Evaluaremos tu solicitud y te enviaremos un email con nuestra respuesta!</p>
+    <?php } ?>        
+
+    <form action="proc_adoptar.php" method="post">
+        <div class="line">
+            <label for="">Nombres Completo</label>
+            <input type="text" name="n" required>
+        </div>
+        <div class="line">
+            <label for="">DNI</label>
+            <input type="number" name="dni" required>
+        </div>
+
+        <div class="line">
+            <label for="">Direccion</label>
+            <input type="text" name="d" required>
+            <select name="distrito" id="" required>
             <option value="AN">Ancon</option>
             <option value="ATE">Ate</option>
             <option value="BA">Barranco</option>
@@ -83,15 +95,15 @@ if(isset($_GET['id'])){
             <option value="SU">Surquillo</option>
             <option value="VES">Villa El Salvador</option>
             <option value="VMT">Villa Maria del Triunfo</option>
-        </select>
-
-    </div>
-    <div>
-        <input type="hidden" name="id" value="<?php echo $id ?>">
-    </div>
-    <button>Enviar Solicitud</button>
-</form>
-
+            </select>
+        </div>
+        <div class="line">
+            <input type="hidden" name="id" value="<?php echo $id ?>">
+        </div>
+        <div class="lineB">
+            <button>Enviar Solicitud</button>
+        </div>   
+    </form>
 
 <?php }else{ ?>
 
