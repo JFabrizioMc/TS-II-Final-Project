@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos/anuncios_style.css">
+    <script src="https://kit.fontawesome.com/7ad55b8f63.js"></script>
     <title>Anuncios Importantes</title>
 </head>
 <body>
