@@ -17,10 +17,10 @@
       </div>
 
       <div id="mensaje">
-            <p>El objetivo de AHPL es conectar a las personas que desean adoptar un animal en cualquier estado y las personas que necesitan dar en adopcion</p>
+            <p>El objetivo de AHL es conectar a las personas que desean adoptar un animal en cualquier estado y las personas que necesitan dar en adopcion</p>
             <p>o estan en busca de un hogar para un animal perdido ya sea perro o gato.</p>
             <p>Animal Hope for Life es un proyecto web desarrollado por los estudiantes de la carrera de Ingenieria de Informatica y Sistemas: </p>
-            <p>Desarrollador de diseño: Luis Delzo</p>
+            <p>Desarrollador de diseño: Luis Delzo Espinoza</p>
             <p>Desarrollador php y html: Jose Fabrizio Manco</p>
             <p>Desarrollador php y html: Jose Alan Aparicio</p>
             <p></p>

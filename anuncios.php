@@ -24,8 +24,8 @@
         </nav>
     </div>
 
-    <h1>Enterate de algunos tips y de futuras noticias sobre campañas para ayudar a tus mascotas!</h1>
-    <h2>Campaña de esterelizacion para perros!</h2>
+    <h1 style="background-color: rgba(121, 96, 65, 0.493)">Enterate de algunos tips y de futuras noticias sobre campañas para ayudar a tus mascotas!</h1>
+    <h2 style="background-color:rgba(83, 112, 167, 0.329)">Campaña de esterelizacion para gatos!</h2>
     
     <div class="anuncios">
 

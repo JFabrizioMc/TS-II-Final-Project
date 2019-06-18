@@ -1,6 +1,6 @@
 body{
     font-family: 'Open Sans', Arial;
-    background-color: rgb(228, 228, 228);
+    background: url(https://images.pexels.com/photos/46024/pexels-photo-46024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     text-align: center;
     background-size: 100%;
 }
@@ -25,10 +25,11 @@ body{
     font-weight: bold;
     font-size: 18px;    
     padding: 2em 1em;
+    color: black;
 }
 
 .barra a:hover{
-    background-color: rgb(184, 54, 184);
+    background-color: rgb(68, 50, 68);
     color: white;
 }
 
@@ -42,11 +43,11 @@ body{
 /*Contenido*/
 h1{
     font-family: 'Ubuntu', sans-serif;
-    color: rgb(192, 178, 99);
+    color: cadetblue(192, 178, 99);
 }
 
 h2{
-    color: rgb(228, 60, 60);
+    color: black;
 }
 
 .anuncios{
