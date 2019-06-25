@@ -25,7 +25,7 @@
     <?php if(isset($_GET['aea'])){ ?>
         <p style="color: ligthgreen">Muchas gracias, seguiremos trabajando para mejorar!</p>
    <?php }else if(isset($_GET['t'])){ ?>
-        <p style="color: red">Dona p chamare :C somos pobres xd </p>
+        <p style="color: red">Dona p ctmre >:v somos pobres xd </p>
   <?php } ?>
 
    <?php }else{ ?>
